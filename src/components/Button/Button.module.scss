@@ -1,0 +1,40 @@
+@import "styles/abstracts/variables.scss";
+
+.button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 22rem;
+  height: 5rem;
+  position: relative;
+  $border: 5px;
+  background: $primary-color;
+  background-clip: padding-box; /* !importanté */
+  border: solid 5px transparent; /* !importanté */
+  border-radius: 1rem;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px; /* !importanté */
+    border-radius: inherit; /* !importanté */
+    background: linear-gradient(to right, $fifth-color, $third-color);
+  }
+}
+
+.buttonText {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 85.5%;
+  color: $button-default;
+}
+
+.vector {
+  color: $fourth-color;
+}

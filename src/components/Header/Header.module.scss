@@ -1,0 +1,51 @@
+@import 'styles/abstracts/variables.scss';
+
+.header {
+    position: fixed;
+    background: $primary-color;
+    left: 0%;
+    right: 0;
+    bottom: 0%;
+    top: 0%;
+    height: 8rem;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    font-size: 1.9rem;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+    width: 50%;
+
+    & > a {
+        text-decoration: none;
+        cursor: pointer;
+        line-height: 2.2rem;
+        color: $secondary-color;
+    }
+
+    & > a:visited {
+        color: $secondary-color;
+    }
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    font-size: 1.9rem;
+}
+
+.logo {
+    height: 4rem;
+    margin-right: 0.2rem;
+}
