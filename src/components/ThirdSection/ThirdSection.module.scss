@@ -1,0 +1,27 @@
+@import "styles/abstracts/variables.scss";
+
+.container {
+  height: 90rem;
+  background: linear-gradient(90deg, $fifth-color 0%, $sixth-color 100%);
+  color: $primary-color;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 85.5%;
+}
+
+.boxesContainer {
+    
+}
+
+.box {
+    width: 23rem;
+    height: 23rem;
+    background-color: $fifth-color;
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+}

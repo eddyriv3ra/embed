@@ -1,0 +1,50 @@
+@import "styles/abstracts/variables.scss";
+
+.container {
+  margin-bottom: 10rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 90rem;
+}
+
+.secondSectionTitle {
+  color: $button-default;
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 25.6px;
+  margin-bottom: 4rem;
+}
+
+.firstDescription {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.video {
+  width: 80rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  width: 25%;
+}
+
+.bottomTextWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.bottomText {
+  width: 49%;
+  text-align: center;
+}
