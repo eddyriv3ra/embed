@@ -1,0 +1,58 @@
+@import "styles/abstracts/variables.scss";
+
+.container {
+  background-color: $secondary-color;
+  height: 80rem;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20rem;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftSideWraper {
+  display: flex;
+  align-items: center;
+}
+
+.branding {
+  font-weight: 400;
+  font-size: 14px;
+  color: $primary-color;
+  margin-top: 1rem;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.first {
+  color: $primary-color;
+  font-weight: 500;
+  font-size: 33.0798px;
+  margin-left: 1rem;
+}
+
+.second {
+  color: $primary-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  width: 27%;
+}
+
+.images {
+  margin: 2rem 0;
+  display: flex;
+  gap: 3rem;
+}
